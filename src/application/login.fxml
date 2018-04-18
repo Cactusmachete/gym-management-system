@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.loginController">
+   <children>
+      <Button fx:id="loginBtn" layoutX="271.0" layoutY="275.0" mnemonicParsing="false" text="Log In" />
+      <TextField fx:id="emailID" layoutX="155.0" layoutY="118.0" prefHeight="26.0" prefWidth="289.0" promptText="Email id">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="pwd" layoutX="155.0" layoutY="174.0" prefHeight="26.0" prefWidth="289.0" promptText="*****" />
+      <Label layoutX="92.0" layoutY="34.0" prefHeight="46.0" prefWidth="415.0" text="Gym Management System">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorLabel" layoutX="206.0" layoutY="222.0" prefHeight="16.0" prefWidth="187.0" text="Please enter a valid email id" textFill="#e42121" />
+   </children>
+</AnchorPane>
