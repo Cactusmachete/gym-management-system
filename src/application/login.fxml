@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.loginController">
    <children>
       <Button fx:id="loginBtn" layoutX="271.0" layoutY="275.0" mnemonicParsing="false" text="Log In" />
@@ -22,6 +21,6 @@
             <Font name="System Bold" size="28.0" />
          </font>
       </Label>
-      <Label fx:id="errorLabel" layoutX="206.0" layoutY="222.0" prefHeight="16.0" prefWidth="187.0" text="Please enter a valid email id" textFill="#e42121" />
+      <Label fx:id="errorLabel" layoutX="245.0" layoutY="222.0" prefHeight="16.0" prefWidth="110.0" text="Wrong Password" textFill="#e42121" />
    </children>
 </AnchorPane>

@@ -31,7 +31,7 @@ public class dashController {
 	}
 
 	private void handleResetAction(ActionEvent arg0) throws IOException {
-		// TODO make changes in 
+		// TODO make changes in admin table when this is done
 		
 		Main.scene.openDialog("change_pwd");
 		
